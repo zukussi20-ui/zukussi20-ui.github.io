@@ -1,5 +1,5 @@
 # zukussi20-
-[index (2).html](https://github.com/user-attachments/files/33542692/index.2.html)
+[index (3).html](https://github.com/user-attachments/files/33542767/index.3.html)
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -78,7 +78,7 @@ button.btn{font:inherit;cursor:pointer}
   <main id="top">
     <div class="hero">
       <img class="photo" src="photo.jpg" alt="Photo of Jeric James M. Bulanadi">
-      <h1>Licensed criminologist with a clerical and reporting background.</h1>
+      <h1>Licensed Criminologist. Organized, accurate, and ready to serve.</h1>
       <p>Internship experience in law enforcement offices, covering document control, report preparation and record keeping. Types 80–110 WPM with high accuracy.</p>
       <a class="btn" href="#experience">View experience</a>
       <a class="btn ghost" href="#contact">Get in touch</a>
