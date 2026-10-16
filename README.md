@@ -1,6 +1,5 @@
-# zukussi20-ui.github.io
-[index.html](https://github.com/user-attachments/files/33542493/index.html)
-
+# zukussi20-
+[index (1).html](https://github.com/user-attachments/files/33542617/index.1.html)
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -58,7 +57,9 @@ footer{padding:32px 0 48px;color:var(--muted);font-size:.92rem;border-top:1px so
   .row{grid-template-columns:1fr}
   .row .meta{grid-row:auto;grid-column:1}
 }
-   .photo{width:140px;height:140px;border-radius:50%;object-fit:cover;margin-bottom:28px}
+.photo{width:150px;height:150px;border-radius:50%;object-fit:cover;margin-bottom:28px;border:3px solid var(--line)}
+button.btn{font:inherit;cursor:pointer}
+.contact .addr{margin:20px 0 0;color:var(--ink);font-weight:500}
 </style>
 </head>
 <body>
@@ -75,7 +76,7 @@ footer{padding:32px 0 48px;color:var(--muted);font-size:.92rem;border-top:1px so
 
   <main id="top">
     <div class="hero">
-            <img class="photo" src="photo.jpg" alt="Photo of Jeric Bulanadi">
+      <img class="photo" src="photo.jpg" alt="Photo of Jeric James M. Bulanadi">
       <h1>Licensed criminologist with a clerical and reporting background.</h1>
       <p>Internship experience in law enforcement offices, covering document control, report preparation and record keeping. Types 80–110 WPM with high accuracy.</p>
       <a class="btn" href="#experience">View experience</a>
@@ -148,10 +149,20 @@ footer{padding:32px 0 48px;color:var(--muted);font-size:.92rem;border-top:1px so
       <h2>Contact me</h2>
       <p>I'm looking for an administrative, records, or law enforcement support role where I can apply my training and keep learning. Send me a message and I'll reply as soon as I can.</p>
       <a class="btn" href="mailto:jjeric20@yahoo.com">Email me</a>
+      <button class="btn ghost" id="copy" type="button">Copy email</button>
+      <p class="addr">jjeric20@yahoo.com</p>
     </section>
   </main>
 
   <footer>© 2026 Jeric James M. Bulanadi</footer>
 </div>
+<script>
+document.getElementById('copy').addEventListener('click',function(){
+  var b=this;
+  try{navigator.clipboard.writeText('jjeric20@yahoo.com').then(function(){
+    b.textContent='Copied!';setTimeout(function(){b.textContent='Copy email'},2000);
+  },function(){});}catch(e){}
+});
+</script>
 </body>
 </html>
