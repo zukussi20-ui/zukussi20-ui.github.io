@@ -1,5 +1,5 @@
 # zukussi20-
-[index (1).html](https://github.com/user-attachments/files/33542617/index.1.html)
+[index (2).html](https://github.com/user-attachments/files/33542692/index.2.html)
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -60,6 +60,7 @@ footer{padding:32px 0 48px;color:var(--muted);font-size:.92rem;border-top:1px so
 .photo{width:150px;height:150px;border-radius:50%;object-fit:cover;margin-bottom:28px;border:3px solid var(--line)}
 button.btn{font:inherit;cursor:pointer}
 .contact .addr{margin:20px 0 0;color:var(--ink);font-weight:500}
+.contact .addr a{text-decoration:underline;text-underline-offset:3px}
 </style>
 </head>
 <body>
@@ -150,7 +151,7 @@ button.btn{font:inherit;cursor:pointer}
       <p>I'm looking for an administrative, records, or law enforcement support role where I can apply my training and keep learning. Send me a message and I'll reply as soon as I can.</p>
       <a class="btn" href="mailto:jjeric20@yahoo.com">Email me</a>
       <button class="btn ghost" id="copy" type="button">Copy email</button>
-      <p class="addr">jjeric20@yahoo.com</p>
+      <p class="addr">jjeric20@yahoo.com<br><a href="tel:+639668661273">0966-866-1273</a></p>
     </section>
   </main>
 
